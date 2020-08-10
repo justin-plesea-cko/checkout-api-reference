@@ -32,7 +32,9 @@ info:
     
     When you sign up for an account, you are given a public API key, and an access key ID and secret for OAuth 2.0. You authenticate with our API by following the appropriate authentication flow, using either your API keys or your access key credentials.
 
-    Unless explicitly stated, all endpoints require authentication using OAuth. Public keys should only be used in JavaScript or native applications
+
+    Unless explicitly stated, all endpoints require authentication using OAuth. Public keys should only be used in JavaScript or native applications.
+
 
     Never share your secret keys or access key credentials or access tokens. Keep them guarded and secure.
 
