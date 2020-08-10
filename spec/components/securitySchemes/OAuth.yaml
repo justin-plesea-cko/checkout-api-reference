@@ -41,7 +41,7 @@ flows:
   clientCredentials:
     tokenUrl: See table above
     scopes:
-      vault: Tokenise and store sensitive data
+      vault: Tokenize and store sensitive data
       "vault:instruments": Create instruments
       gateway: Access to all Gateway resources
       "gateway:payment": Request payments
