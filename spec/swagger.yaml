@@ -19,20 +19,23 @@ info:
     
     Checkout.com provides a collection of APIs that enable you to process and manage payments.  
     
-    Our APIs accept and return JSON in the HTTP body and return HTTP response codes to indicate errors. You can consume the APIs directly using your favorite HTTP/REST library or make use of one of our <a href="https://docs.checkout.com/docs/sdks" target="_blank">SDKs</a>.  
-    
+    Our APIs accept and return JSON in the HTTP body and return HTTP response codes to indicate errors.
+    You can consume the APIs directly using your favorite HTTP/REST library or, if you'd like to make use of one of our SDKs, please let our Integrations team know at <a href="mailto:integration@checkout.com" target="_blank">integration@checkout.com</a>.  
+  
 
-    Our unified payments API allows you to accept payments from cards, digital wallets and the most popular alternative payment methods, as well as pay out to a variety of destinations, all using the same integration. 
+    Our unified payments API allows you to accept payments, as well as pay out to a variety of destinations, all using the same integration. 
     
     
-    And with our webhook management, events and disputes APIs, you can keep on top of your transactions and react to any chargebacks, keeping your business running smoothly. 
+    And with our workflow management, events and disputes APIs, you can keep on top of your transactions and react to any chargebacks, keeping your business running smoothly. 
     
     # Authentication
     
-    When you sign up for an account, you are given an OAuth 2.0 access key ID and secret that can be used to generate access tokens to authenticate with our API.  
+    When you sign up for an account, you are given a public API key, and an access key ID and secret for OAuth 2.0. You authenticate with our API by following the appropriate authentication flow, using either your API keys or your access key credentials.
 
+    Unless explicitly stated, all endpoints require authentication using OAuth. Public keys should only be used in JavaScript or native applications
 
-    Never share your access key credentials. Keep them guarded and secure.
+    Never share your secret keys or access key credentials or access tokens. Keep them guarded and secure.
+
 servers:
   - url: https://api.checkout.com
     description: Live API
