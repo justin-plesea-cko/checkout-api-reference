@@ -60,6 +60,7 @@ tags:
   - name: Sessions
     description: Sessions are Checkout.com's interpretation of the EMV 3DS protocol which enables support for SCA payments.
   - name: Workflows
+    description: Use Workflows to start receiving webhook notifications for your payments, disputes, and marketplace sub-entities.
   # - name: Files
   #   description: |
   #     Upload files to be used as input to other APIs
