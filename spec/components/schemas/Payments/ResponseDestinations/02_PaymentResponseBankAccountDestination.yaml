@@ -1,0 +1,10 @@
+type: object
+description: A bank account payment destination
+required:
+  - id
+properties:
+  id:
+    type: string
+    description: The payment instrument identifier
+    pattern: ^(src)_(\w{26})$
+        

@@ -4,6 +4,7 @@ discriminator:
   propertyName: type
   mapping:
     card: '#/components/schemas/01_PaymentResponseCardDestination'
+    bank_account: '#/components/schemas/02_PaymentResponseBankAccountDestination'
 required:
   - type
 properties:
