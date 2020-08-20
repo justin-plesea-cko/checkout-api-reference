@@ -1,5 +1,5 @@
 type: object
-description: The destination of the payout.
+description: The destination of the payout.<br><i>Use to request a payout to a bank account instrument.</i>
 discriminator:
   propertyName: type
   mapping:
