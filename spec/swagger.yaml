@@ -36,7 +36,7 @@ info:
     Unless explicitly stated, all endpoints require authentication using OAuth. Public keys should only be used in JavaScript or native applications.
 
 
-    Never share your secret keys or access key credentials or access tokens. Keep them guarded and secure.
+    Never share your access key credentials or access tokens. Keep them guarded and secure.
 
 servers:
   - url: https://api.checkout.com
