@@ -8,5 +8,5 @@ allOf:
     properties:
       id:
         type: string
-        description: The payment instrument identifier (e.g., a card source identifier)
+        description: The payment instrument identifier
         example: src_wmlfc3zyhqzehihu7giusaaawu
