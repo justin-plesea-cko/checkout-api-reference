@@ -20,7 +20,7 @@ properties:
     example: "fraudulent"
   amount:
     type: number
-    description: The amount that is being disputed, in the processing currency
+    description: The amount that is being disputed, in the processing currency. This amount can be positive or negative depending on the type of transaction the dispute is received against
     example: 999
   currency:
     type: string
