@@ -16,17 +16,3 @@ properties:
       The payment source type. For any payment request sources that result in a card token (token, source ID, etc.),
       this will be `card`
     example: "card"
-  id:
-    type: string
-    description: |
-      The payment source identifier that can be used for subsequent payments.
-      For new sources, this will only be returned if the payment was approved
-    example: "src_nwd3m4in3hkuddfpjsaevunhdy"
-  billing_address:
-    description: The payment source owner's billing address
-    allOf:
-      - $ref: '#/components/schemas/Address'
-  phone:
-    description: The payment source owner's phone number
-    allOf:
-      - $ref: '#/components/schemas/PhoneNumber'
