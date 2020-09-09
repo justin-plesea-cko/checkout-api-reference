@@ -554,10 +554,29 @@ label.active, span.sc-gwVKww.SmuWE.active {
   }
 }
 
-/* Hide application/json */
+/* Hide content-type JSON */
 
-.sc-fzpisO.jHQZJv {
-  display: none;
+span.sc-fzoVTD.heGpR, .sc-fzoJus.hHgrjJ {
+  display: none!important;
+}
+
+/* Example drop-down */
+
+.sc-fzoyTs.iuCQoO.dropdown.sc-fzoKki.sc-fznyYp.iFDKZT, .sc-fzoyTs.SdIzZ.dropdown.sc-fzoKki.sc-fznyYp.iFDKZT {
+  background-color: var(--secondary-button) !important;
+  color: var(--primary-button-color) !important;
+  font-weight: bold;
+}
+
+.iFDKZT.iFDKZT .dropdown-arrow {
+  border-top-color: var(--primary-button-color);
+}
+
+span.sc-fznWOq.mcMLk.dropdown-selector-content {
+  background: white;
+  border-radius: 0;
+  left: 0;
+  box-shadow: none;
 }
 
 /* Endpoint drop-down */
