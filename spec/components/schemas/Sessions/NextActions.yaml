@@ -1,5 +1,5 @@
 type: array
-description: Identifies what actions to take in order to complete the session.
+description: Identifies what actions to take in order to complete the session
 items:
   enum:
     - collect_channel_data

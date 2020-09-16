@@ -4,8 +4,8 @@ properties:
   redirect:
     type: object
     description: > 
-      The link where the cardholder should be redirected to. </br>
-      Only available when `hosted` value is `true`.
+      The link to which the cardholder should be redirected. </br>
+      Only available when the `hosted` value is `true`.
     properties:
       href:
         type: string

@@ -1,4 +1,5 @@
 type: object
+description: The shipping address
 properties:
   address_line1: 
     type: string

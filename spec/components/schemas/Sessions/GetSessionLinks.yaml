@@ -5,7 +5,7 @@ allOf:
 properties:
   issuer_fingerprint:
     type: object
-    description: The URI to send the 3ds method completion indicator to. Use this if device information was sent when requesting a session.
+    description: The URI to send the 3DS Method completion indicator to. Use this if device information was sent when requesting a session.
     properties:
       href:
         type: string
@@ -21,7 +21,7 @@ properties:
         example: https://api.checkout.com/sessions/sid_y3oqhf46pyzuxjbcn2giaqnb441/collect-data
   three_ds_method_url:
     type: object
-    description: The URI of the Issuer FingerPrint (3DS Method)
+    description: The URI of the issuer fingerprint (3DS Method)
     properties:
       href:
         type: string
@@ -37,7 +37,7 @@ properties:
         example: https://api.hbsc.com/challenge
   complete:
     type: object
-    description: The URI to signal the session as complete.
+    description: The URI to signal the session as complete
     properties:
       href:
         type: string
