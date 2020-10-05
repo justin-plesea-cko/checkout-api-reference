@@ -299,6 +299,13 @@ td.sc-kgoBCf.kGwPhO {
   border: 1px solid var(--secondary-text) !important;
 }
 
+/* Code sample in main section */
+
+.bmoWQk pre {
+  background-color: var(--code-background) !important;
+  border: 0 !important;
+}
+
 /* Request body schema titles */
 
 h5.sc-fzplWN.sc-pJkiN.iihPlZ, h5.sc-fzplWN.kfkaqq {
