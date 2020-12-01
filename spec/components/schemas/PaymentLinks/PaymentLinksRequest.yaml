@@ -43,7 +43,7 @@ properties:
         maxLength: 30
       email:
         type: string
-        description: An optional email address to associate with the customer
+        description: An email address to associate with the customer
       name:
         type: string
         description: The customer's name. This will only set the name for new customers
@@ -63,7 +63,7 @@ properties:
           - $ref: '#/components/schemas/Address'
       phone:
         type: object
-        description: The customer's phone number. This will override the phone number specified during tokenization
+        description: The customer's phone number
         required:
           - number
         allOf:
@@ -91,7 +91,7 @@ properties:
         price:
           type: integer
           description: 'Minor units. Includes tax, excludes discounts. (Max value: 100000000)'
-          minimum: 0
+          minimum: 1
           maximum: 100000000
   metadata:
     type: object
@@ -113,6 +113,6 @@ properties:
   return_url:
     type: string
     format: uri
-    description: The URL used to redirect the customer after payment is successful. If provided, the success page will include a button that redirects your customer to the provided URL
+    description: If provided, the success page will include a button that redirects your customer to the provided URL
     example: https://example.com/success
 

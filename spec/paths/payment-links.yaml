@@ -3,10 +3,10 @@ post:
     - ApiSecretKey: []
   tags:
     - Payment Links
-  summary: Create a Payment Link session
+  summary: Create a Payment Link
   operationId: createAPaymentLinkSession
   description: |
-    Create a Payment Link session and pass through all the payment information, like the amount, currency, country and reference.
+    Create a Payment Link and pass through all the payment information, like the amount, currency, country and reference.
   requestBody:
     required: true
     content:
