@@ -8,7 +8,8 @@ properties:
     example: 'cid_7fbeb87f-322d-4a02-9758-2ca48ae65696'
   expires:
     type: string
-    description: The payment link expiry date and time
+    description: The date and time for when the payment link expires
+    format: 'ISO 8601 date and time'
     example: '2020-08-20T20:25:28+08:00'
   reference:
     type: string
