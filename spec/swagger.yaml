@@ -44,6 +44,8 @@ servers:
 tags:
   - name: Payments
     description: Process and manage payments from a variety of sources and to various destinations all within one integration.
+  - name: Payment Links
+    description: Create a Payment Link page to accept and process payment details.
   - name: Hosted Payments
     description: Create a Hosted Payments page to accept and process payment details.
   - name: Sources
