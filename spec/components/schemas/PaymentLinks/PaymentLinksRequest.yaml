@@ -2,7 +2,6 @@ type: object
 required:
   - amount
   - currency
-  - customer
   - billing
 properties:
   amount:
