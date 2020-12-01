@@ -23,9 +23,10 @@ properties:
     description: A description of the payment
   expiry:
     type: integer
-    description: The time for which the link remain valid, in seconds
-    default: 86400
+    description: The seconds the payment link should be kept valid for. Maximum expiry is 14 days and the default is 1 day
+    minimum: 1,
     maximum: 1209600
+    default: 86400
   customer:
     type: object
     description: The customer's details
@@ -112,6 +113,6 @@ properties:
   return_url:
     type: string
     format: uri
-    description: For redirect payment methods, this overrides the default return redirect URL configured on your account
+    description: The URL used to redirect the customer after payment is successful. If provided, the success page will include a button that redirects your customer to the provided URL
     example: https://example.com/success
 
