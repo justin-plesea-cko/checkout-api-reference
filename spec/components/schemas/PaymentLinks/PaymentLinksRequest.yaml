@@ -21,7 +21,7 @@ properties:
   description:
     type: string
     description: A description of the payment
-  expiry:
+  expires_in:
     type: integer
     description: The seconds the payment link should be kept valid for. Maximum expiry is 14 days and the default is 1 day
     minimum: 1,
