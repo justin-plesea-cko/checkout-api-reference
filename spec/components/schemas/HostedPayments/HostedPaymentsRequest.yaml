@@ -28,6 +28,7 @@ properties:
     description: The customer's details
     required:
       - name
+      - email
     properties:
       id:
         type: string
