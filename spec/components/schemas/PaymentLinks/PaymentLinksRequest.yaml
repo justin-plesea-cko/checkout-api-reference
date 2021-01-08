@@ -107,4 +107,3 @@ properties:
     format: uri
     description: If provided, the success page will include a button that redirects your customer to the provided URL
     example: https://example.com/success
-
