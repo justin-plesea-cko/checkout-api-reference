@@ -100,6 +100,8 @@ properties:
         type: boolean
         description: Determines whether to attempt a 3D Secure payment as non-3D Secure should the card issuer not be enrolled
         default: false
+  risk:
+    $ref: '#/components/schemas/RiskRequest'
   return_url:
     type: string
     format: uri
