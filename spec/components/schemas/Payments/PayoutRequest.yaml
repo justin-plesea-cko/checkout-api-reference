@@ -26,7 +26,7 @@ properties:
     minLength: 3
   reference:
     type: string
-    description: A reference you can later use to identify this payout
+    description: An internal reference you can later use to identify this payout
     example: "Withdrawal"
   billing_descriptor:
     $ref: '#/components/schemas/PayoutBillingDescriptor'
