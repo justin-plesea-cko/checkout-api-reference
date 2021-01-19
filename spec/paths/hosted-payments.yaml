@@ -2,13 +2,13 @@ post:
   security:
     - ApiSecretKey: []
   tags:
-    - Hosted Payments
-  summary: Create a Hosted Payments session
+    - Hosted Payments Page
+  summary: Create a Hosted Payments Page session
   operationId: createAHostedPaymentsSession
   description: |
-    Create a Hosted Payments session and pass through all the payment information, like the amount, currency, country and reference.
+    Create a Hosted Payments Page session and pass through all the payment information, like the amount, currency, country and reference.
 
-    **Please note:** To get started with our Hosted Payments Page, contact your Solutions Engineer or integration@checkout.com.
+    To get started with our Hosted Payments Page, contact your Solutions Engineer or integration@checkout.com.
   requestBody:
     required: true
     content:
